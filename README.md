@@ -35,16 +35,49 @@ If you want to build or run the source manually:
 ```bash
 python main.py
 ```
+
 ## Roadmap
 
-> Dark mode styling
+Planned features and improvements for future versions of **CK3 Mod Installer**:
 
->.rar archive support
+- 🎨 **UI Redesign Using Qt (Open Source)**
+  - Migration from the current layout to a redesigned interface using Qt (via PySide6) under the LGPL v3 open-source license.
+  - Improved layout, accessibility, and visual clarity.
 
->Multi-platform support (Linux/macOS)
+- 🖌️ **UI Styling Enhancements**
+  - Consistent theme and styling across all interface elements.
+  - Dark mode and better visual feedback during mod operations.
 
->AV False Alarm reduction
+- 🧩 **CK3 Launcher Compatibility**
+  - Integration with Crusader Kings III's official launcher functionality:
+    - Toggle mod activation/deactivation.
+    - View mod compatibility and metadata (e.g., supported version, tags).
+
+- 📦 **.rar Archive Support**
+  - Add support for extracting mods packaged in `.rar` format.
+
+- 🖥️ **Cross-Platform Support**
+  - Experimental support for **Linux** and **macOS** platforms, in addition to Windows.
+
+- 🛡️ **False Positive Antivirus Detection Reduction**
+  - Refactor build and packaging process to avoid triggering false AV flags.
+  - Ensure smoother installation experience for end users.
 
 ## License
 
-MIT License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+### Qt Licensing Notice
+
+This software uses **PySide6**, the official Python bindings for the Qt toolkit, which is licensed under the **GNU Lesser General Public License (LGPL) version 3**.
+
+As required by the LGPL:
+
+- Qt (via PySide6) is **dynamically linked**.
+- No modifications have been made to the Qt source libraries.
+- End users are granted the right to modify or replace the PySide6 libraries used by this software, as permitted by the LGPL.
+
+For more information, refer to:
+- [GNU LGPL v3 License](https://www.gnu.org/licenses/lgpl-3.0.html)
+- [Qt Open Source Licensing](https://www.qt.io/licensing/open-source-lgpl-obligations)
+
