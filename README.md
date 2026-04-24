@@ -2,5 +2,5 @@
 
 This repository currently exists solely to distribute the standalone executable for the CK3 Mod Installer. 
 
-Fork exists as to await when original author will upload the complete python source code to this repository upon their return.
+Fork currently exists as to await for when original author returns for when they upload the complete python source code to their repository.
 
